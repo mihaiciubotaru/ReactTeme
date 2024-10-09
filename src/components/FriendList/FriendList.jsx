@@ -1,16 +1,34 @@
-const FriendList = () => {
-    return (
-        <li class="item">
-            <span class="status"></span>
-            <img class="avatar" src="" alt="User avatar" width="48" />
-            <p class="name"></p>
+
+import FriendListItem from "../FriendListItem/FriendListItem";
+
+const FriendList = ({friends}) => {
+
+    // const listItems = stats.map(item0 =>
+    //     <li class="item">
+    //         <span class="label">{item0.label}</span>
+    //         <span class="percentage">{item0.percentage}</span>
+    //     </li>
+    // )
+
+    const listItems = friends.map(friend =>
+        <li>
+            <FriendListItem
+                avatar={friend.avatar}
+                name={friend.name}
+                isOnline={friend.isOnline}
+            />
         </li>
+)
+    return(
+        <ul class="friend-list">
+            {listItems}
+        </ul>
+        // <div>qwqwqw</div>
     )
+
 }
 
 export default FriendList;
 
 //date props:
-// avatar - link către avatar
-// name - numele prietenului
-// isOnline - valoarea boolean care specifică statusul prietenului: online sau nu.
+// friends - o matrice cu obiecte FriendListItem

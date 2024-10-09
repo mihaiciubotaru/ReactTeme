@@ -2,6 +2,7 @@ import Profile from "./Profile/Profile";
 import user from "./Profile/user.json";
 import Statistics from "./Statistics/Statistics";
 import data from "./Statistics/data.json";
+import FriendListItem from "./FriendListItem/FriendListItem";
 import FriendList from "./FriendList/FriendList";
 import friends from "./FriendList/friends.json";
 import TransactionHistory from "./TransactionHistory/TransactionHistory";
@@ -34,6 +35,12 @@ export const App = () => {
       />
       <FriendList 
         friends={friends} 
+      />;
+      <FriendListItem 
+        avatar="https://cdn-icons-png.flaticon.com/512/1998/1998592.png"
+        name="Mango"
+        isOnline="true"
+        id="666"
       />;
       <TransactionHistory
         items={transactions} 
