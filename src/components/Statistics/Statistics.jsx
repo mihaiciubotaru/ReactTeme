@@ -1,3 +1,4 @@
+import React from "react";
 const Statistics = ({title, stats}) => {
     const listItems = stats.map(item0 =>
         <li class="item">
@@ -6,7 +7,7 @@ const Statistics = ({title, stats}) => {
         </li>
     )
     return (
-
+            
         <section class="statistics">
             <h2 class="title">{title}</h2>
             <ul class="stat-list"> 

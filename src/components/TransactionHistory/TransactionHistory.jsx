@@ -1,3 +1,4 @@
+import React from "react";
 const TransactionHistory = ({items}) => {
     const listItems = items.map(item =>
         <tr id={item.id}>

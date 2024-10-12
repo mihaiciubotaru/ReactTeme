@@ -1,0 +1,60 @@
+.profile_main {
+    width: 330px;
+    height: 360px;
+    border-style: solid;
+    border-width: 80px;
+    border-color: lightgrey;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.profile_name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size: 20px;
+    color: black;
+    margin: 0px;
+}
+.profile_img {
+    padding-top: 10px;
+}
+.profile_details {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size: 20px;
+    color: gray;
+    margin: 0px;
+}
+.profile_info {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size: 20px;
+    color: gray;
+}
+.profile_li {
+    align-items: center;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    width: 32.7%;
+    aspect-ratio: 1;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.profile_ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size: 20px;
+    color: gray;
+    align-items: center;
+    vertical-align: middle;
+}
